@@ -23,5 +23,5 @@ print()
 
 print("=== TEST 2: ITERATIEVE METHODE ===")
 local A2, B2, C2 = maak_beginstand(3)
-Hanoi.recursief(3, A2, C2, B2)    -- Roept de binaire versie aan
+Hanoi.iterattief(3, A2, C2, B2)    -- Roept de binaire versie aan
 print("\nEindstand C:", C2)
